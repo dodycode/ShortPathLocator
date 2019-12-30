@@ -1,0 +1,33 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.img-graph{
+	width: 400px;
+	height: 400px;
+}
+
+.form{
+	display: flex;
+	flex-direction: column;
+}
+
+@media screen and (max-width: 640px) {
+	.img-graph {
+		height: auto;
+		width: 100%;
+	}
+}
